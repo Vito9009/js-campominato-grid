@@ -14,6 +14,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100px;
 }
 
 #logo-title{
@@ -31,4 +32,40 @@ header{
 
 select, button{
     padding: 3px 20px;
+}
+
+#grid{
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+}
+
+.box-ten{
+    width: calc(100% / 10);
+}
+
+.box-nine{
+    width: calc(100% / 9);
+}
+
+.box-seven{
+    width: calc(100% / 7);
+}
+
+.box-ten, .box-nine, .box-seven{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.click-colored-box{
+    background-color: rgb(100, 149, 237);
+    color: rgb(255, 255, 255);
 }
