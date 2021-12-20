@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(127, 255, 212);
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#logo{
+    height: 50px;
+    padding-right: 10px;
+}
+
+select, button{
+    padding: 3px 20px;
+}
