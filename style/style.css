@@ -55,7 +55,7 @@ select, button{
 }
 
 .box-ten, .box-nine, .box-seven{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(127, 255, 212);
     border: 1px solid rgb(0, 0, 0);
     font-size: 30px;
     font-weight: bold;
